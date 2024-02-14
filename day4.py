@@ -211,5 +211,6 @@ elif input_choice == 3 and computer_choice == 1 :
     print("You lose!")
 elif input_choice == 3 and computer_choice == 2 :
     print("You win!")
-
+elif input_choice >= 4 or input_choice <= 0:
+    print("You choose an invalid number you lose!")
 
